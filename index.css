@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@500;700;900&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.Me{
+    height: 100vh;
+	width: 100%;
+	background-image: url(./img/first.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.container .main{
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+
+.container .main{
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+}
+.main .main-one{
+    width: 45%;
+    padding: 40px 30px;
+    padding-left: 150px;
+}
+.main-one h1{
+    
+    font-size: 80px;
+}
+.main-one span{
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFDE59;
+}
+.main-one p{
+    font-size: 17px;
+    padding: 10px 0;
+}
+.main-one button{
+    background-color: #FFDE59;
+    outline: none;
+    border: none;
+    padding: 9px 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 2px 2px 30px #0e0e0e79;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all ease-out 0.2s;
+}
+.main-one button:hover{
+    transform: scale(1.02);
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #cbbebe;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: rgb(6, 6, 6);
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgba(20, 19, 20, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+.service{
+	background: #8d7373;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+    height: 365px;
+}
